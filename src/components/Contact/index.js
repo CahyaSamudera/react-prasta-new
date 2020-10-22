@@ -16,7 +16,8 @@ const Contact = () => {
     <Container id='contact'>
       <FormWrap>
         <FormContent>
-          <Form name='contact' method='POST' data-netlify='true'>
+          <Form action='/contact' name='contact' method='post'>
+            <input type='hidden' name='form-name' value='contact' />
             <FormH1>Hubungi Kami</FormH1>
             <FormLabel htmlFor='for'>Nama</FormLabel>
             <FormInput type='text' name='name' required />

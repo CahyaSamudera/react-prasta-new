@@ -32,7 +32,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='contact'>Hubungi Kami</SidebarRoute>
+          <SidebarRoute to='contact' onClick={toggle}>
+            Hubungi Kami
+          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
