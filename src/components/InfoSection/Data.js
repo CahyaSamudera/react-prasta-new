@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: 'about',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Premium Website',
+  headline: 'Create your dream website right now',
+  description: 'Take your business to the next level.',
+  buttonLabel: 'Get Started',
+  imgStart: false,
+  img: require('../../images/svg-3.svg'),
+  alt: 'Car',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTwo = {
+  id: 'about',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Tentang Kami',
+  headline: 'Prasta',
+  description:
+    'Terdiri dari sekumpulan anak muda yang menyukai teknologi, khususnya teknologi pemrograman. Kami menyukai tantangan dan senang menciptakan hal-hal yang baru dan berbeda.',
+  buttonLabel: 'Hubungi Kami',
+  imgStart: true,
+  img: require('../../images/svg-9.svg'),
+  alt: 'computer',
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: 'cta',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Website Profesional',
+  headline: 'Miliki website impianmu sekarang juga!',
+  description: 'Dan kembangkan bisnismu ke level tertinggi!',
+  buttonLabel: 'Hubungi Kami',
+  imgStart: false,
+  img: require('../../images/svg-3.svg'),
+  alt: 'Rocket',
+  dark: false,
+  primary: false,
+  darkText: true,
+};
