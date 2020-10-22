@@ -3,7 +3,7 @@ const people = [
     id: 1,
     image: require('../../images/bianca.png'),
     name: 'bianca plaza',
-    title: 'Marketing Staff Tamansari Skyhive',
+    title: 'Marketing Tamansari Skyhive',
     quote:
       'Saya sangat suka website yang mereka buatkan. Website yang mereka hasilkan sangat bagus dan profesional, tetapi dengan harga terjangkau.',
   },
