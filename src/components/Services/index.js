@@ -34,10 +34,10 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Penerjemahan</ServicesH2>
+          <ServicesH2>E-commerce</ServicesH2>
           <ServicesP>
-            Kami juga menerima projek penerjemahan dokumen dari English ke
-            Bahasa Indonesia dan sebaliknya.
+            Miliki toko online untuk produk-produk yang kamu jual sendiri dengan
+            transaksi yang langsung masuk ke rekening kamu.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
