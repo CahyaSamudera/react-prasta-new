@@ -34,7 +34,7 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>E-commerce</ServicesH2>
+          <ServicesH2>E-Commerce</ServicesH2>
           <ServicesP>
             Miliki toko online untuk produk-produk yang kamu jual sendiri dengan
             transaksi yang langsung masuk ke rekening kamu.
